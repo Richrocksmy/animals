@@ -1,13 +1,13 @@
-package com.twentyThreeSquared.animals.repository.entity;
+package com.twentyThreeSquared.animals.persistence.entity;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.UUID;
-
+@Document(collection = "animals")
 public class Animal {
 
     @Id
-    private String id = UUID.randomUUID().toString();
+    private String id;
 
     private String type;
     private int legs;

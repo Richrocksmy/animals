@@ -1,7 +1,7 @@
 package com.twentyThreeSquared.animals;
 
-import com.twentyThreeSquared.animals.repository.AnimalRepository;
-import com.twentyThreeSquared.animals.repository.entity.Animal;
+import com.twentyThreeSquared.animals.persistence.entity.Animal;
+import com.twentyThreeSquared.animals.persistence.repository.AnimalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.twentyThreeSquared.animals.repository;
+package com.twentyThreeSquared.animals.persistence.repository;
 
-import com.twentyThreeSquared.animals.repository.entity.Animal;
+import com.twentyThreeSquared.animals.persistence.entity.Animal;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;
